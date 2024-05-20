@@ -1,0 +1,116 @@
+/* ************************navbar********************** */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px;
+    background: #151e29;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    z-index: 99;
+}
+
+.logo {
+    margin: 20px 0px 20px 30px;
+    font-size: 30px;
+    color: #fff;    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.logo span {
+    color: #0073ff;
+}
+
+.navigation a {
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.navigation :nth-child(5){
+    margin-right: 20px;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-transform-origin: right;
+    -ms-transform-origin: right;
+    transform-origin: right;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: -webkit-transform .5s;
+    transition: -webkit-transform .5s;
+    -o-transition: transform .5s;
+    transition: transform .5s;
+    transition: transform .5s, -webkit-transform .5s;
+
+
+}
+
+.navigation a:hover::after {
+
+
+    -webkit-transform-origin: left;
+
+
+    -ms-transform-origin: left;
+
+
+    transform-origin: left;
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.navigation .btnLogin-popup,
+.btnSignup-popup {
+    width: 100px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    margin-left: 40px;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+
+}
+
+.navigation .btnLogin-popup:hover {
+    background: #fff;
+    color: #162938;
+
+}
+
+.navigation .btnSignup-popup:hover {
+    background: #fff;
+    color: #162938;
+
+}

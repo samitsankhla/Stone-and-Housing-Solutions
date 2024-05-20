@@ -1,0 +1,452 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+
+} 
+
+.hero {
+    background-color: #845252;
+    
+     /* background-image:url("C:\xampp\htdocs\final\images\hero.jpg"); */
+    /* color: #fff; */
+    padding: 200px 0; /* Adjust padding as needed */
+    text-align: center;
+    /* height: 500px; */
+
+    background: url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #011a38;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color:#151e29; /* Adjust button color as needed */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    color: #151e29;
+    background-color: #fff /* Adjust button hover color as needed */
+}
+
+
+
+/* ************************AboutSection********************** */
+
+.about{
+    /* position: relative;  */
+    /* top: 70px; */
+   padding-left: 40px;
+   padding-right: 40px;
+       height: 460%;
+       /* background-color: red; */
+       background-color: #fff;
+       display: flex;
+        flex-direction: row;
+       
+  }
+  .aboutUsText{
+    /* margin-top: 10px; */
+    /* height: 400px; */
+    width: 60%;
+    /* background-color: blue; */
+  
+  }
+  
+  .aboutUsText h1{
+      position: relative;
+      top: 19px;
+      left: 20px;
+      font-size: 40px;
+      padding-bottom: 40px;
+  }
+  .aboutUsText p{
+     position: relative;
+     left: 20px;
+     padding-top: 10px;
+       padding-bottom: 20px;
+     font-size: 18px;
+     padding-right: 20px;
+  }
+  .image{
+    /* height: 365px; */
+    width: 40%;
+     padding-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    /* background-size: cover;
+    background-position: center; */
+  }
+  .image img{
+      height: 350px;
+      width: 510px;
+      /* border: 2px solid blue; */
+      border-radius: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  }
+  .btn-readmore{
+    height: 50px;
+       width: 180px;
+       font-size: 20px;
+       font-weight: 500;
+       color: #fff;
+      background-color: #151e29;
+      border: 2px solid #fff;
+       position: relative;
+       left: 20px;
+       bottom: 10px;
+      
+     
+      /* border-radius: 7px; */
+  }
+  
+  .btn-readmore:hover{
+    background: #d9d9d9;
+    color: #151e29;
+    font-size: 20px;
+    font-weight: 500;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  }
+
+
+
+  /* ************************featured-roducts********************** */
+
+  
+
+  .featured-products {
+    background-color: #111;
+    color: #fff;
+    padding: 80px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+.featured-products .container{
+    display: flex;
+    flex-direction: row;
+}
+
+.featured-products h2 {
+    font-size: 32px;
+    padding-top: 50px;
+    padding-left: 40px;
+    /* padding-right: 50px; */
+}
+
+.product-list {
+    /* padding-left: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 300px; /* Adjust product item width as needed */
+    margin: 0 20px 40px;
+    padding: 20px;
+    /* background-color: #222;  */
+    background-color:#fff;
+    color:#162938;
+    /* Adjust product item background color as needed */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    text-align: left;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product h3 {
+    font-size: 24px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #fff;
+    
+}
+
+.product p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.product .price {
+    font-size: 20px;
+    color: #ff6b00; /* Adjust price color as needed */
+    font-weight: bold;
+}
+
+.product .btn {
+    display: inline-block;
+    background-color: #ff6b00; /* Adjust button color as needed */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.product .btn:hover {
+    background-color: #e25800; /* Adjust button hover color as needed */
+}
+
+
+
+
+  /* ************************benefits********************** */
+  
+  
+
+  .benefits {
+    /* background-color: #111;
+    color: #fff; */
+    background-color:#fff;
+    color:#162938;
+    padding: 80px 0; /* Adjust padding as needed */
+    text-align: center;
+}
+.benefits .container{
+    display: flex;
+    flex-direction: row;
+}
+
+.benefits h2 {
+    font-size: 37px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.benefits-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.benefit {
+    width: 300px; /* Adjust benefit item width as needed */
+    margin: 0 20px;
+    padding: 20px;
+    /* background-color: #222; */
+    background-color:#f9f9f9;;
+    color:#162938;
+     /* Adjust benefit item background color as needed */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    text-align: left;
+}
+
+.benefit img {
+    width: 50px; /* Adjust icon size as needed */
+    margin-bottom: 20px;
+}
+
+.benefit h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.benefit p {
+    font-size: 16px;
+}
+
+
+  
+  /* ************************why-choose-us********************** */
+
+  .why-choose-us {
+    /* background-color: #1e1e1e;
+    color: #fff; */
+    background-color:#fff;
+    color:#162938;
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.reasons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.reason {
+    width: 45%;
+    max-width: 300px;
+    margin-bottom: 30px;
+    text-align: center;
+    /* border: 1px solid rgb(130, 111, 75); */
+     /* border-radius: 1px; */
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.7); */
+}
+
+.reason i {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #ffc107; /* Icon color */
+}
+
+.reason h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.reason p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+
+  /* ************************call-to-action********************** */
+
+  .call-to-action {
+    background-color:#fff;
+    color:#162938;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #162938; /* Button color */
+    color:#fff; /* Text color */
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    /* background-color: #ffdb6b; */
+    background: #d9d9d9;
+    color: #151e29;
+    font-size: 20px;
+    font-weight: 500;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7); /* Button hover color */
+}
+
+/* ************************contactUS************************* */
+
+.contact-us {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    
+}
+
+.contact-us h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.gallary{
+    padding-top: 40px;
+    /* color: #fff; */
+    background-color:#fff ;
+}
+
+
+
+
